@@ -1,13 +1,13 @@
 {
-  "name": "@demo-react-styleguide/button",
+  "name": "@demo-react-styleguide/text",
   "version": "0.0.4",
-  "description": "demo-ui: Basic Button Component",
+  "description": "demo-ui: Basic Text Component",
   "main": "dist/index.min.js",
   "repository": "https://github.com/vivek3003/demo-react-styleguide",
   "author": "vivek kaarthek",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config ../../webpack.lib.config.js --env.pkg=button"
+    "build": "webpack --config ../../webpack.lib.config.js --env.pkg=text"
   },
   "dependencies": {
     "classnames": "^2.2.5",

@@ -1,3 +1,24 @@
+@import '../../../scss/index.scss';
+
 .drs-button {
-  color: black;
+  background: $grey;
+  color: $text;
+  font-size: 1rem;
+  font-family: $font-family;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border: 2px solid $text;
+  border-radius: 6px;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &--type-primary {
+    background: $primary;
+    color: $text-light;
+    border: 2px solid $primary;
+  }
+  &--disabled {
+    opacity: 0.6;
+  }
 }

@@ -9,12 +9,13 @@
     <span>Primary Button</span>
   </Button>
   <br />
+  <br />
   <Button
-    type="secondary"
     onClick={() => { window.alert('Secondary Button was Clicked'); }}
   >
-    <span>Secondary Button</span>
+    <span>Normal Button</span>
   </Button>
+  <br />
   <br />
   <Button
     isDisabled

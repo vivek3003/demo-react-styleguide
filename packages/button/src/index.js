@@ -17,8 +17,7 @@ export default class Button extends React.Component {
       PropTypes.element,
       PropTypes.array,
     ]),
-    size: PropTypes.oneOf(['small']),
-    type: PropTypes.oneOf(['brand', 'primary', 'warning', 'green']),
+    type: PropTypes.oneOf(['primary']),
     onClick: PropTypes.func,
     isDisabled: PropTypes.bool,
   };
@@ -30,7 +29,7 @@ export default class Button extends React.Component {
   }
 
   render() {
-    const { size, type } = this.props;
+    const { type } = this.props;
 
     return (
       <button

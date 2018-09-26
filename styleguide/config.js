@@ -9,7 +9,7 @@ module.exports = {
       components: () => ([
         // Add Components here
         '../packages/button/src/index.js',
-        // '../packages/input/src/index.js',
+        '../packages/text/src/index.js',
       ]),
     },
     // {
