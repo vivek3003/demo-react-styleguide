@@ -17,7 +17,7 @@ export default class Button extends React.Component {
       PropTypes.element,
       PropTypes.array,
     ]),
-    type: PropTypes.oneOf(['primary']),
+    type: PropTypes.oneOf(['primary', 'secondary']),
     onClick: PropTypes.func,
     isDisabled: PropTypes.bool,
   };

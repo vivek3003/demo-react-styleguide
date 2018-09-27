@@ -18,6 +18,11 @@
     color: $text-light;
     border: 2px solid $primary;
   }
+  &--type-secondary {
+    background: $secondary;
+    color: $text-light;
+    border: 2px solid $secondary;
+  }
   &--disabled {
     opacity: 0.6;
   }

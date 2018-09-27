@@ -36,7 +36,7 @@ function config(env) {
             'transform-react-remove-prop-types',
             'add-react-displayname',
           ],
-          presets: [['es2015', { modules: false }], 'stage-0', 'react'],
+          presets:['es2015', 'stage-0', 'react'],
         },
       }, {
         test: /\.scss$/,

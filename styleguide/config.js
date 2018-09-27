@@ -10,15 +10,15 @@ module.exports = {
         // Add Components here
         '../packages/button/src/index.js',
         '../packages/text/src/index.js',
+      ]),
+    },
+    {
+      name: 'Composite Components',
+      components: () => ([
+        // '../packages/input-group/src/index.js',
         '../packages/card/src/index.js',
       ]),
     },
-    // {
-    //   name: 'Composite Components',
-    //   components: () => ([
-    //     // '../packages/input-group/src/index.js',
-    //   ]),
-    // },
   ],
   template: './template.html',
   webpackConfig: require('./webpack.styleguide.js'),

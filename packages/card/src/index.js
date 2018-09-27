@@ -1,7 +1,6 @@
 // vendor modules
 import React from 'react';
 import PropTypes from 'prop-types';
-import getClassnames from 'classnames';
 import Button from '@demo-react-styleguide/button';
 import Text from '@demo-react-styleguide/text';
 
@@ -25,7 +24,7 @@ export default class Card extends React.Component {
           <Text type="description">This is a night trek were you get to gaze upon the milky way in all its glory!</Text>
         </div>
         <div className="drs-card__actions">
-          <Button type="primary">Buy</Button>
+          <Button type="secondary">Buy</Button>
           <Button>Cancel</Button>
         </div>
       </div>

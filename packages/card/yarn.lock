@@ -2,18 +2,18 @@
 # yarn lockfile v1
 
 
-"@demo-react-styleguide/button@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@demo-react-styleguide/button/-/button-0.0.4.tgz#6192ef99bf92963fc6b38552b65f0684694e3eb7"
+"@demo-react-styleguide/button@^0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@demo-react-styleguide/button/-/button-0.0.13.tgz#4fcd788660d7d483b8784686c07bba66807025fb"
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.6.0"
     react "16.0.0"
     react-dom "16.0.0"
 
-"@demo-react-styleguide/text@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@demo-react-styleguide/text/-/text-0.0.4.tgz#711bc4395b2a7599d94eeabf5972cbc9153f9366"
+"@demo-react-styleguide/text@^0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@demo-react-styleguide/text/-/text-0.0.13.tgz#16e61fc4eead987d4db774cba5ec815ecaea2b28"
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.6.0"

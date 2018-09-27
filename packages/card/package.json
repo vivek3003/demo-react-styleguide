@@ -1,6 +1,6 @@
 {
   "name": "@demo-react-styleguide/card",
-  "version": "0.0.5",
+  "version": "0.0.14",
   "description": "demo-ui: Basic card Component",
   "main": "dist/index.min.js",
   "repository": "https://github.com/vivek3003/demo-react-styleguide",
@@ -10,8 +10,8 @@
     "build": "webpack --config ../../webpack.lib.config.js --env.pkg=card"
   },
   "dependencies": {
-    "@demo-react-styleguide/button": "^0.0.5",
-    "@demo-react-styleguide/text": "^0.0.5",
+    "@demo-react-styleguide/button": "^0.0.14",
+    "@demo-react-styleguide/text": "^0.0.14",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0",
     "react": "16.0.0",
